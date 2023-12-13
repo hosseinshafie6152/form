@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(131, 204, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+.div_form{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    margin: 80px 0;
+}
+.profile{
+    text-align: center;
+    margin: 10px auto;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile .payment{
+    margin-top: 0;
+}
+.form{
+    margin: 30px;
+}
+
+.fild_full_name{
+    display: block;
+    width: 335px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 230, 239);
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+}
+.fild_card_number{
+    display: block;
+    width: 335px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 230, 239);
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+}
+.fild_date{
+    display: inline;
+    background-color: rgb(226, 230, 239);
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fild_CVV{
+    display: inline;
+    background-color: rgb(226, 230, 239);
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+    width: 150px;
+    margin: 5px 10px;
+}
+.fild_Zip_cod{
+    display: block;
+    width: 335px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 230, 239);
+    border-radius: 7px;
+    height: 40px;
+    border: none;
+}
+.form input:hover{
+    background-color: white;
+    box-shadow: 5px 8px 8px 10px #edecec;
+    border: none;
+    
+}
+.display{
+    display: inline-block;
+    width: 150px;
+    padding-left: 5px;
+}
+.submit{
+    background-color: rgb(39, 143, 180);
+    color: white;
+    text-align: center;
+    width: 335px;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+.submit:hover{
+    box-shadow: 5px 8px 8px 10px #edecec;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.comment_verify{
+    text-align: center;
+    font-weight: 100;
+}
